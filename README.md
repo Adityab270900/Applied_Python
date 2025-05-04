@@ -17,6 +17,15 @@ This module contains the following classes:
 
 Each class includes methods to access and modify their attributes, as well as a string representation for easy display.
 
+### School_Catalogue_Property.py
+This module contains the following classes implemented using the `@property` decorator:
+
+- **School**: A base class representing a generic school with attributes for name, level, and number of students.
+- **PrimarySchool**: A subclass of `School` that adds a `pickup_policy` attribute specific to primary schools.
+- **HighSchool**: A subclass of `School` that adds a `sports_teams` attribute specific to high schools.
+
+Each class uses the `@property` decorator for attribute access and modification, providing a more Pythonic way to handle getters and setters.
+
 ## How to Use
 
 1. Import the `School`, `PrimarySchool`, and `HighSchool` classes from `School_Catalogue.py`.
